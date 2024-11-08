@@ -39,6 +39,7 @@ local_parameters = [{'name': 'camera_name',                  'default': 'camera'
                     {'name': 'device_type',                  'default': "d455", 'description': 'choose device by type'},
                     {'name': 'enable_color',                 'default': 'true', 'description': 'enable color stream'},
                     {'name': 'enable_depth',                 'default': 'true', 'description': 'enable depth stream'},
+                    {'name': 'align_depth.enable',           'default': 'true', 'description': 'enable align depth filter'},
                     {'name': 'pointcloud.enable',            'default': 'true', 'description': 'enable pointcloud'},
                    ]
 
